@@ -1,6 +1,9 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
 
+/* my added font*/
+@import url('https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&display=swap');
+
 /*
 	Dimension by HTML5 UP
 	html5up.net | @ajlkn
@@ -180,10 +183,9 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #ffffff;
-		font-weight: 600;
+		font-weight: 100; /* This apparently changes the weight on the title*/
 		line-height: 1.5;
 		margin: 0 0 1rem 0;
-		text-transform: uppercase;
 		letter-spacing: 0.2rem;
 	}
 
@@ -202,10 +204,11 @@ input, select, textarea {
 			margin: 0 0 2rem 0;
 		}
 
-	h1 {
-		font-size: 5rem;
+	h1 { /* the title header, Helen & Bryan*/
+		font-size: 6rem;
 		line-height: 1.3;
 		letter-spacing: 0.5rem;
+		font-family: "Bilbo Swash Caps", "Source Sans Pro", sans-serif;
 	}
 
 	h2 {
@@ -1152,7 +1155,10 @@ input, select, textarea {
 			-webkit-transition-delay: 0.75s;
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
-			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
+			background-image: linear-gradient(to top,
+													rgba(253, 221, 190, 0.5),
+													rgba(253, 221, 190, 0.5)),
+													url("../../images/overlay.png");
 			background-size: auto,
  256px 256px;
 			background-position: center,
