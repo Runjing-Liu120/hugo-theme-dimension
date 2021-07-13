@@ -1160,8 +1160,8 @@ input, select, textarea {
 			transition-delay: 0.75s;
 			/* the overlayed background color*/
 			background-image: linear-gradient(to top,
-													rgba(168, 119, 46, 0.4),
-													rgba(168, 119, 46, 0.4)),
+													rgba(255, 246, 225, 1.0),
+													rgba(255, 246, 225, 1.0)),
 													url("../../images/overlay.png");
 			background-size: auto,
  256px 256px;
@@ -1169,7 +1169,7 @@ input, select, textarea {
  center;
 			background-repeat: no-repeat,
  repeat;
-			z-index: 2;
+			z-index: 1;
 		}
 
 		#bg:after {
@@ -1185,7 +1185,7 @@ input, select, textarea {
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
-			z-index: 1;
+			z-index: 2;
 		}
 
 		body.is-article-visible #bg:after {
