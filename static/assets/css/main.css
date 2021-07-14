@@ -1160,10 +1160,7 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			/* the overlayed background color*/
-			background-image: linear-gradient(to top,
-													rgba(255, 246, 225, 1.0),
-													rgba(255, 246, 225, 1.0)),
-													url("../../images/overlay.png");
+			background-color: white;
 			background-size: auto,
  256px 256px;
 			background-position: center,
@@ -1332,6 +1329,8 @@ input, select, textarea {
 			border-color: #000000;
 			border-top-width: 1px;
 			border-bottom-width: 1px;
+			border-left-width: 1px;
+			border-right-width: 1px;
 			max-width: 100%;
 		}
 
@@ -1347,6 +1346,8 @@ input, select, textarea {
 				padding: 3rem 2rem;
 				max-height: 40rem;
 				overflow: hidden;
+				/* add to color in the header background*/
+				background-color: rgba(255, 246, 225, 0.5);
 			}
 
 				#header .content .inner > :last-child {
@@ -1360,7 +1361,6 @@ input, select, textarea {
 				font-size: 1.5rem;
 				line-height: 2;
 				color: black;
-				background-color: rgba(255, 246, 225, 0.5);
 			}
 
 		#header nav ul {
@@ -1377,7 +1377,7 @@ input, select, textarea {
 
 			#header nav ul li {
 				padding-left: 0;
-				border-left: solid 1px #ffffff;
+				border-left: solid 1px #000000;
 			}
 
 				#header nav ul li:first-child {
@@ -1395,13 +1395,14 @@ input, select, textarea {
 					letter-spacing: 0.1rem;
 					font-size: 1.0rem;
 					font-weight: 800;
+					color: black;
 					border-bottom: 0;
 					/* added to fill in color of buttons*/
-					background-color: rgba(168, 119, 46, 0.8);
+					background-color: rgba(255, 246, 225, 0.9);
 				}
 
 					#header nav ul li a:hover {
-						background-color: rgba(255, 255, 255, 0.075);
+						background-color: rgba(255, 246, 225, 0.5);
 					}
 
 					#header nav ul li a:active {
@@ -1416,7 +1417,7 @@ input, select, textarea {
 			left: calc(50% - 1px);
 			width: 1px;
 			height: 100%;
-			background: #ffffff;
+			background: #000000;
 		}
 
 		#header nav.use-middle ul li.is-middle {
