@@ -614,7 +614,7 @@ input, select, textarea {
 		border-bottom: none;
 		position: relative;
 		/* size of the icon/seal */
-		zoom: 4.0;
+		zoom: 1.5;
 	}
 
 		.icon:before {
