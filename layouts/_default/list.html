@@ -26,12 +26,12 @@
                     </div>
                     <nav>
                         <ul>
-                            {{ range .Pages.ByDate }}
+                            {{ range (where .Pages ".Params.unlisted" "!=" "true") }}
                                 {{if .Title }}
                                     {{if .Content}}
-                                        <li>
-                                            <a href="#{{ cond (in (.Title|urlize) "%") (.Title | base64Encode) (.Title) | urlize }}">{{ .Title }}</a>
-                                        </li>
+                                            <li>
+                                                <a href="#{{ cond (in (.Title|urlize) "%") (.Title | base64Encode) (.Title) | urlize }}">{{ .Title }}</a>
+                                            </li>
                                     {{ else }}
                                         <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
                                     {{ end }}
@@ -48,7 +48,7 @@
                         {{if .Title }}
                             {{if .Content }}
                                 <article id="{{ cond (in (.Title|urlize) "%") (.Title | base64Encode) (.Title) | urlize }}">
-                                    <h2 class="major">{{ .Title }}</h2>
+                                    {{ if not .Params.hidetitle }}<h2 class="major">{{ .Title }}</h2>{{ end }}
                                     <span class="image main"><img src="{{ .Params.image }}" alt="" /></span>
                                     {{ .Content }}
                                 </article>
