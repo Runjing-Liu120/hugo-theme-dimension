@@ -409,7 +409,7 @@ input, select, textarea {
 		transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		background-color: transparent;
 		border-radius: 4px;
-		border: solid 1px #ffffff;
+		border: solid 1px black;
 		color: inherit;
 		display: block;
 		outline: 0;
@@ -434,8 +434,8 @@ input, select, textarea {
 		select:focus,
 		textarea:focus {
 			background: rgba(255, 255, 255, 0.075);
-			border-color: #ffffff;
-			box-shadow: 0 0 0 1px #ffffff;
+			border-color: black;
+			box-shadow: 0 0 0 1px black;
 		}
 
 	select {
@@ -561,27 +561,27 @@ input, select, textarea {
 	}
 
 	::-webkit-input-placeholder {
-		color: rgba(255, 255, 255, 0.5) !important;
+		color: rgb(128,128,128) !important;
 		opacity: 1.0;
 	}
 
 	:-moz-placeholder {
-		color: rgba(255, 255, 255, 0.5) !important;
+		color: rgb(128,128,128) !important;
 		opacity: 1.0;
 	}
 
 	::-moz-placeholder {
-		color: rgba(255, 255, 255, 0.5) !important;
+		color: rgb(128,128,128) !important;
 		opacity: 1.0;
 	}
 
 	:-ms-input-placeholder {
-		color: rgba(255, 255, 255, 0.5) !important;
+		color: rgb(128,128,128) !important;
 		opacity: 1.0;
 	}
 
 	.formerize-placeholder {
-		color: rgba(255, 255, 255, 0.5) !important;
+		color: rgb(128,128,128) !important;
 		opacity: 1.0;
 	}
 
@@ -1048,6 +1048,7 @@ input, select, textarea {
 		text-decoration: none;
 		text-transform: uppercase;
 		white-space: nowrap;
+		background-color: rgb(34, 139, 34)
 	}
 
 		input[type="submit"]:hover,
@@ -1056,6 +1057,7 @@ input, select, textarea {
 		button:hover,
 		.button:hover {
 			background-color: rgba(255, 255, 255, 0.075);
+			background-color: rgb(34, 139, 34, 0.5)
 		}
 
 		input[type="submit"]:active,
