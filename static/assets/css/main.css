@@ -613,7 +613,7 @@ input, select, textarea {
 		border-bottom: none;
 		position: relative;
 		/* size of the icon/seal --bl */
-		zoom: 1.5;
+		/* zoom: 1.5; */
 	}
 
 		.icon:before {
