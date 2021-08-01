@@ -19,7 +19,9 @@
                             <h1>{{ .Title | default "Title" }}</h1>
                             {{ if .Params.description }}
                             <p>
-                                {{ .Params.description }}
+                                {{ .Params.description }}<br>
+                                {{ .Params.description2 }}<br>
+                                {{ .Params.description3 }}<br>
                             </p>
                             {{ end }}
                         </div>

@@ -205,7 +205,7 @@ input, select, textarea {
 		}
 
 	h1 { /* the title header, Helen & Bryan --bl*/
-		font-size: 6rem;
+		font-size: 7rem;
 		color: #000000;
 		line-height: 1.3;
 		font-family: mrsheffield-pro, "Source Sans Pro", sans-serif;
@@ -1321,7 +1321,7 @@ input, select, textarea {
 			border: solid 1px #000000;
 			border-radius: 100%;
 			/* background color for logo --bl */
-			background-color: rgba(255, 246, 225, 0.6);
+			background-color: rgba(255, 246, 225, 0.8);
 		}
 
 			#header .logo .icon:before {
@@ -1351,7 +1351,7 @@ input, select, textarea {
 				max-height: 40rem;
 				overflow: hidden;
 				/* add to color in the header background --bl*/
-				background-color: rgba(255, 246, 225, 0.6);
+				background-color: rgba(255, 246, 225, 0.8);
 			}
 
 				#header .content .inner > :last-child {
@@ -1362,9 +1362,10 @@ input, select, textarea {
 				/* this is the subtitle --bl*/
 				text-transform: uppercase;
 				letter-spacing: 0.2rem;
-				font-size: 1.5rem;
+				font-size: 1.0rem;
 				line-height: 2;
 				color: black;
+				font-family: mrs-eaves;
 			}
 
 		#header nav ul {
@@ -1402,11 +1403,11 @@ input, select, textarea {
 					text-transform: uppercase;
 					letter-spacing: 0.1rem;
 					font-size: 1.0rem;
-					font-weight: 800;
 					color: black;
 					border-bottom: 0;
+					font-family: mrs-eaves;
 					/* added to fill in color of buttons*/
-					background-color: rgba(255, 246, 225, 0.6);
+					background-color: rgba(255, 246, 225, 0.8);
 				}
 
 					#header nav ul li a:hover {
