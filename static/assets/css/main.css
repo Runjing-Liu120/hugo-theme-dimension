@@ -206,8 +206,8 @@ input, select, textarea {
 
 	h1 { /* the title header, Helen & Bryan --bl*/
 		padding-top: 3rem;
-		/* font-size: 7rem; */
-		font-size: 8vw;
+		font-size: 7rem; 
+		/* font-size: 8vw; */
 		color: #000000;
 		line-height: 0.95;
 		font-family: mrsheffield-pro, "Source Sans Pro", sans-serif;
