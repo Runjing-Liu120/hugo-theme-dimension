@@ -27,8 +27,7 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
-}
+	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -142,7 +141,7 @@ input, select, textarea {
 				font-size: 10pt;
 			}
 
-		} */
+		}
 
 	body, input, select, textarea {
 		color: #000000;
@@ -207,8 +206,8 @@ input, select, textarea {
 
 	h1 { /* the title header, Helen & Bryan --bl*/
 		padding-top: 3rem;
-		font-size: 7.0rem;
-		/* font-size: 8vw; */
+		/* font-size: 7rem; */
+		font-size: 8vw;
 		color: #000000;
 		line-height: 0.95;
 		font-family: mrsheffield-pro, "Source Sans Pro", sans-serif;
@@ -240,7 +239,7 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		h1 {
-			font-size: 4rem;
+			font-size: 2.5em;
 			line-height: 1.4;
 		}
 
