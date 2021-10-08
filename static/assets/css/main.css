@@ -236,25 +236,6 @@ input, select, textarea {
 		font-size: 0.6rem;
 	}
 
-	@media screen and (max-width: 736px) {
-
-		h1 {
-			font-size: 4.5em;
-			line-height: 1.4;
-		}
-
-		h2 {
-			font-size: 1.25em;
-			line-height: 1.5;
-		}
-
-		h2 {
-			font-size: 0.75em;
-			line-height: 1.5;
-		}
-
-	}
-
 	sub {
 		font-size: 0.8rem;
 		position: relative;
