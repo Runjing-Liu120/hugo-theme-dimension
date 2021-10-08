@@ -248,6 +248,11 @@ input, select, textarea {
 			line-height: 1.5;
 		}
 
+		h2 {
+			font-size: 0.75em;
+			line-height: 1.5;
+		}
+
 	}
 
 	sub {
