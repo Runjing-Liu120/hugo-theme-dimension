@@ -1681,3 +1681,9 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+link {
+		  color: green;
+		  background-color: transparent;
+		  text-decoration: none
+		}
